@@ -1,0 +1,70 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 27. 07. 2023.
+  Changes:
+    - Add space exploration compatibility for router
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 11. 02. 2023.
+  Bugfixes:
+    - Fix save of linked indicator on chest
+    - Fix freeze when change of belt direction
+  Changes:
+    - Merging routers keep filters 
+    - Copy/paste, blueprinting router keeps filters
+    - Add command /logistic_belt_restart to recompute all logistic belts
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 05. 11. 2022.
+  Info:
+    - Add connection de 1,2,3 tiles between a device and a container 
+    - Add overflow mode for device. Device send only items above a threshold (request ignored)
+    - Add copy/paste from an assembly machine to a device
+  Bugfixes:
+    - Fix incorrect requests for parallel belt
+    - Fix unsaved parameters in copy/paste/blueprint
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 31. 10. 2022.
+  Bugfixes:
+    - Set filtered_input flag on device to prevent freeze when there too many unsatisfied request
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 24. 10. 2022.
+  Bugfixes:
+    - Fix crash on normal resolution
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 24. 10. 2022.
+  Info:
+    - First stable release
+    - Add propagation of request through any container (normal, logistic, linked), a button appears on the left panel when selected
+    - Add router to configure easily the belt network (Not available in Space exploration).A router is a chest that shares it inventory with its neighnour and propagates logistic request.
+    - Add optional propagation of request on any chest
+    - Add option to disable propagation of requests on a logistic belt device
+    - Display requested on the left panel when a device is selected
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 24. 09. 2022.
+  Changes:
+    - Improve speed of sushi belt with only one item on a lane
+    - Fixes messages
+    - Add copy/paste for sushi belts
+    - Change graphic layering
+    - Add optional slow on sushi belts
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 08. 09. 2022.
+  Changes:
+    - Fix bad name of a sprite which causes crash in not hr mode
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 08. 09. 2022.
+  Changes:
+    - Fix crash at startup
+    - Fix copy/paste
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 27. 08. 2022.
+  Info:
+    - Initial release
