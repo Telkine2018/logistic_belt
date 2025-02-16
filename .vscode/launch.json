@@ -12,7 +12,6 @@
             "hookSettings": false,
             "hookData": false,
             "hookMode": "debug",
-            "checkGlobals": ["logistic_belt","space-exploration" ],
             "hookControl": ["logistic_belt","space-exploration" ],
             "adjustMods": {
                 "logistic_belt" : true
